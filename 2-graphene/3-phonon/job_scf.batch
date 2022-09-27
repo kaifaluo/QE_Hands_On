@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -J graphene_scf          #Job name
+#SBATCH -p normal                  # Queue (partition) name
+#SBATCH -N 10                       # Total # of nodes 
+#SBATCH -n 512
+#SBATCH -t 1:00:00                # Run time (hh:mm:ss)
+#SBATCH -A DMR21002                # Project name 
+
+module list
+pwd
+date
+
+# Launch MPI code... 
+export PATHQE=/work2/08220/kfluo/frontera/qe-7.0
+
+ibrun $PATHQE/bin/pw.x -nk 512 -in scf.in > scf.out
+
+date
+

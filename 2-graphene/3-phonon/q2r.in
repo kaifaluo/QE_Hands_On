@@ -1,0 +1,6 @@
+&input
+ prefix = 'graphene'
+ fildyn = 'graphene.dyn'
+ zasr   = 'zero-dim'
+ flfrc  = 'graphene.fc'
+/

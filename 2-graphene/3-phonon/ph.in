@@ -1,0 +1,13 @@
+&inputph
+   prefix = "graphene"
+   outdir = './'
+   fildvscf = 'dvscf'
+   ldisp = .true.
+   amass(1) = 12.0107
+   fildyn = "graphene.dyn"
+   nq1 = 8
+   nq2 = 8
+   nq3 = 1
+   tr2_ph = 1.0d-14
+   /
+

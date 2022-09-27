@@ -1,0 +1,13 @@
+
+Currently Loaded Modules:
+  1) intel/19.1.1   4) autotools/1.2   7) pmix/3.1.4     10) TACC
+  2) impi/19.0.9    5) python3/3.7.0   8) hwloc/1.11.12
+  3) git/2.24.1     6) cmake/3.20.3    9) xalt/2.10.34
+
+ 
+
+/work2/08220/kfluo/frontera/prog/Graphene/band
+Fri Jun 10 16:03:50 CDT 2022
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+Abort(1) on node 43 (rank 43 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 43
+Fri Jun 10 16:03:55 CDT 2022
