@@ -1,0 +1,37 @@
+--------
+&inputepw
+  prefix        = 'lif'
+  outdir        = './'
+
+  elph          = .true.
+  epwread       = .true.
+  lpolar        = .true.
+  nbndsub       =  3
+  dvscf_dir     = './save/'
+
+  wannierize    = .false.
+
+  plrn              = .true.
+  restart_plrn      = .true.
+  type_plrn         = 1
+
+  cal_psir_plrn     = .true.
+  interp_Ank_plrn   = .true.
+  interp_Bqu_plrn   = .true.
+  filkf             = './path.kpt'
+  filqf             = './path.kpt'
+
+  nk1           = 6 
+  nk2           = 6 
+  nk3           = 6 
+  nq1           = 6 
+  nq2           = 6 
+  nq3           = 6
+
+  nkf1          = 4
+  nkf2          = 4
+  nkf3          = 4
+  nqf1          = 4
+  nqf2          = 4
+  nqf3          = 4 
+/

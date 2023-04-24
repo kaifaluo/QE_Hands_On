@@ -1,0 +1,39 @@
+&control
+  calculation = "scf"
+  prefix = "p"
+  pseudo_dir = "../pseudo/"
+  outdir = "./tmp/"
+  verbosity = 'high'
+/
+
+&system
+  ibrav     = -9
+  celldm(1) = 8.2025
+  celldm(2) = 2.4171
+  celldm(3) = 1.2673
+  nat   = 4
+  ntyp  = 1
+  ecutwfc = 44
+  occupations = 'smearing'
+  smearing    = "mp"
+  degauss     = 0.001
+/
+
+&electrons
+  conv_thr = 1.D-12
+/
+
+&ions
+/
+
+ATOMIC_SPECIES
+  P 30.9738 P.upf
+
+ATOMIC_POSITIONS (crystal)
+P             0.4922395806        0.5077604194        0.3016996427
+P             0.0077604194        0.9922395806        0.8016996427
+P            -0.0077604194        0.0077604194        0.1983003573
+P            -0.4922395806        0.4922395806        0.6983003573
+
+K_POINTS automatic
+ 10 10 6 1 1 1

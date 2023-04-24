@@ -1,0 +1,60 @@
+TACC:  Starting up job 4507117 
+TACC:  Starting parallel tasks... 
+
+     Reading xml data from directory:
+
+     ./4p2k/si.save/
+     file Si.UPF: wavefunction(s)  3d renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         361     361    121                 4573     4573     893
+ 
+     Using Slab Decomposition
+ 
+         537         577
+(r-space) ikq=    1, ik=    2, ib1=    1, ib2=    1: <k+q|v|k>=    0.238977
+(G-space) ikq=    1, ik=    2, ib1=    1, ib2=    1: <k+q|v|k>=    0.238977
+(r-space) ikq=    1, ik=    2, ib1=    1, ib2=    2: <k+q|v|k>=   -0.004594
+(G-space) ikq=    1, ik=    2, ib1=    1, ib2=    2: <k+q|v|k>=   -0.004594
+(r-space) ikq=    1, ik=    2, ib1=    1, ib2=    3: <k+q|v|k>=   -0.018184
+(G-space) ikq=    1, ik=    2, ib1=    1, ib2=    3: <k+q|v|k>=   -0.018184
+(r-space) ikq=    1, ik=    2, ib1=    1, ib2=    4: <k+q|v|k>=   -0.009885
+(G-space) ikq=    1, ik=    2, ib1=    1, ib2=    4: <k+q|v|k>=   -0.009885
+ 
+(r-space) ikq=    1, ik=    2, ib1=    2, ib2=    1: <k+q|v|k>=   -0.000570
+(G-space) ikq=    1, ik=    2, ib1=    2, ib2=    1: <k+q|v|k>=   -0.000570
+(r-space) ikq=    1, ik=    2, ib1=    2, ib2=    2: <k+q|v|k>=    0.178037
+(G-space) ikq=    1, ik=    2, ib1=    2, ib2=    2: <k+q|v|k>=    0.178037
+(r-space) ikq=    1, ik=    2, ib1=    2, ib2=    3: <k+q|v|k>=    0.103131
+(G-space) ikq=    1, ik=    2, ib1=    2, ib2=    3: <k+q|v|k>=    0.103131
+(r-space) ikq=    1, ik=    2, ib1=    2, ib2=    4: <k+q|v|k>=    0.109899
+(G-space) ikq=    1, ik=    2, ib1=    2, ib2=    4: <k+q|v|k>=    0.109899
+ 
+(r-space) ikq=    1, ik=    2, ib1=    3, ib2=    1: <k+q|v|k>=    0.000514
+(G-space) ikq=    1, ik=    2, ib1=    3, ib2=    1: <k+q|v|k>=    0.000514
+(r-space) ikq=    1, ik=    2, ib1=    3, ib2=    2: <k+q|v|k>=    0.164929
+(G-space) ikq=    1, ik=    2, ib1=    3, ib2=    2: <k+q|v|k>=    0.164929
+(r-space) ikq=    1, ik=    2, ib1=    3, ib2=    3: <k+q|v|k>=   -0.142640
+(G-space) ikq=    1, ik=    2, ib1=    3, ib2=    3: <k+q|v|k>=   -0.142640
+(r-space) ikq=    1, ik=    2, ib1=    3, ib2=    4: <k+q|v|k>=    0.007944
+(G-space) ikq=    1, ik=    2, ib1=    3, ib2=    4: <k+q|v|k>=    0.007944
+ 
+(r-space) ikq=    1, ik=    2, ib1=    4, ib2=    1: <k+q|v|k>=    0.000118
+(G-space) ikq=    1, ik=    2, ib1=    4, ib2=    1: <k+q|v|k>=    0.000118
+(r-space) ikq=    1, ik=    2, ib1=    4, ib2=    2: <k+q|v|k>=   -0.116951
+(G-space) ikq=    1, ik=    2, ib1=    4, ib2=    2: <k+q|v|k>=   -0.116951
+(r-space) ikq=    1, ik=    2, ib1=    4, ib2=    3: <k+q|v|k>=   -0.006675
+(G-space) ikq=    1, ik=    2, ib1=    4, ib2=    3: <k+q|v|k>=   -0.006675
+(r-space) ikq=    1, ik=    2, ib1=    4, ib2=    4: <k+q|v|k>=    0.365904
+(G-space) ikq=    1, ik=    2, ib1=    4, ib2=    4: <k+q|v|k>=    0.365904
+ 
+TACC:  Shutdown complete. Exiting. 

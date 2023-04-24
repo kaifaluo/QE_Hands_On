@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH -J graphene_nscf          #Job name
+#SBATCH -p small                  # Queue (partition) name
+#SBATCH -N 2                       # Total # of nodes 
+#SBATCH -n 112
+#SBATCH -t 1:00:00                # Run time (hh:mm:ss)
+#SBATCH -A DMR21002                # Project name 
+
+module list
+pwd
+date
+
+# Launch MPI code... 
+export PATHQE=/work2/08220/kfluo/frontera/software/qe-7.0
+
+ibrun $PATHQE/bin/pw.x -nk 112 -in scf.in > scf.out
+ibrun $PATHQE/bin/pw.x -nk 112 -in nscf.in > nscf.out
+ibrun $PATHQE/bin/bands.x -nk 112 -in bands.in > bands.out
+
+date
+

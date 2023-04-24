@@ -1,0 +1,4 @@
+&input
+  flfrc='si.fc', asr='simple', fldos='si.dos', dos=.true.,
+  nk1=8, nk2=8, nk3=8
+/

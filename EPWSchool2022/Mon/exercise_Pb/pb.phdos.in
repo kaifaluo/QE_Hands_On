@@ -1,0 +1,11 @@
+  &input
+  flfrc='lead.fc'
+  asr='simple'
+  dos=.true.
+  nk1 = 8
+  nk2 = 8
+  nk3 = 8
+  fldos='lead.dos'
+  flvec='lead.modes'
+  flfrq='lead.freq'
+  /

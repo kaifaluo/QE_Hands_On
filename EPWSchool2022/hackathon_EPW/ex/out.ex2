@@ -1,0 +1,266 @@
+TACC:  Starting up job 4506759 
+TACC:  Starting parallel tasks... 
+
+     Reading xml data from directory:
+
+     ./4p2k/si.save/
+     file Si.UPF: wavefunction(s)  3d renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         361     361    121                 4573     4573     893
+ 
+     Using Slab Decomposition
+ 
+(G-space) ik=    1, ib=    1: norm=    1.000000
+(r-space) ik=    1, ib=    1: norm=    1.000000
+(G-space) ik=    1, ib=    2: norm=    1.000000
+(r-space) ik=    1, ib=    2: norm=    1.000000
+(G-space) ik=    1, ib=    3: norm=    1.000000
+(r-space) ik=    1, ib=    3: norm=    1.000000
+(G-space) ik=    1, ib=    4: norm=    1.000000
+(r-space) ik=    1, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    2, ib=    1: norm=    1.000000
+(r-space) ik=    2, ib=    1: norm=    1.000000
+(G-space) ik=    2, ib=    2: norm=    1.000000
+(r-space) ik=    2, ib=    2: norm=    1.000000
+(G-space) ik=    2, ib=    3: norm=    1.000000
+(r-space) ik=    2, ib=    3: norm=    1.000000
+(G-space) ik=    2, ib=    4: norm=    1.000000
+(r-space) ik=    2, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    3, ib=    1: norm=    1.000000
+(r-space) ik=    3, ib=    1: norm=    1.000000
+(G-space) ik=    3, ib=    2: norm=    1.000000
+(r-space) ik=    3, ib=    2: norm=    1.000000
+(G-space) ik=    3, ib=    3: norm=    1.000000
+(r-space) ik=    3, ib=    3: norm=    1.000000
+(G-space) ik=    3, ib=    4: norm=    1.000000
+(r-space) ik=    3, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    4, ib=    1: norm=    1.000000
+(r-space) ik=    4, ib=    1: norm=    1.000000
+(G-space) ik=    4, ib=    2: norm=    1.000000
+(r-space) ik=    4, ib=    2: norm=    1.000000
+(G-space) ik=    4, ib=    3: norm=    1.000000
+(r-space) ik=    4, ib=    3: norm=    1.000000
+(G-space) ik=    4, ib=    4: norm=    1.000000
+(r-space) ik=    4, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    5, ib=    1: norm=    1.000000
+(r-space) ik=    5, ib=    1: norm=    1.000000
+(G-space) ik=    5, ib=    2: norm=    1.000000
+(r-space) ik=    5, ib=    2: norm=    1.000000
+(G-space) ik=    5, ib=    3: norm=    1.000000
+(r-space) ik=    5, ib=    3: norm=    1.000000
+(G-space) ik=    5, ib=    4: norm=    1.000000
+(r-space) ik=    5, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    6, ib=    1: norm=    1.000000
+(r-space) ik=    6, ib=    1: norm=    1.000000
+(G-space) ik=    6, ib=    2: norm=    1.000000
+(r-space) ik=    6, ib=    2: norm=    1.000000
+(G-space) ik=    6, ib=    3: norm=    1.000000
+(r-space) ik=    6, ib=    3: norm=    1.000000
+(G-space) ik=    6, ib=    4: norm=    1.000000
+(r-space) ik=    6, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    7, ib=    1: norm=    1.000000
+(r-space) ik=    7, ib=    1: norm=    1.000000
+(G-space) ik=    7, ib=    2: norm=    1.000000
+(r-space) ik=    7, ib=    2: norm=    1.000000
+(G-space) ik=    7, ib=    3: norm=    1.000000
+(r-space) ik=    7, ib=    3: norm=    1.000000
+(G-space) ik=    7, ib=    4: norm=    1.000000
+(r-space) ik=    7, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    8, ib=    1: norm=    1.000000
+(r-space) ik=    8, ib=    1: norm=    1.000000
+(G-space) ik=    8, ib=    2: norm=    1.000000
+(r-space) ik=    8, ib=    2: norm=    1.000000
+(G-space) ik=    8, ib=    3: norm=    1.000000
+(r-space) ik=    8, ib=    3: norm=    1.000000
+(G-space) ik=    8, ib=    4: norm=    1.000000
+(r-space) ik=    8, ib=    4: norm=    1.000000
+ 
+(G-space) ik=    9, ib=    1: norm=    1.000000
+(r-space) ik=    9, ib=    1: norm=    1.000000
+(G-space) ik=    9, ib=    2: norm=    1.000000
+(r-space) ik=    9, ib=    2: norm=    1.000000
+(G-space) ik=    9, ib=    3: norm=    1.000000
+(r-space) ik=    9, ib=    3: norm=    1.000000
+(G-space) ik=    9, ib=    4: norm=    1.000000
+(r-space) ik=    9, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   10, ib=    1: norm=    1.000000
+(r-space) ik=   10, ib=    1: norm=    1.000000
+(G-space) ik=   10, ib=    2: norm=    1.000000
+(r-space) ik=   10, ib=    2: norm=    1.000000
+(G-space) ik=   10, ib=    3: norm=    1.000000
+(r-space) ik=   10, ib=    3: norm=    1.000000
+(G-space) ik=   10, ib=    4: norm=    1.000000
+(r-space) ik=   10, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   11, ib=    1: norm=    1.000000
+(r-space) ik=   11, ib=    1: norm=    1.000000
+(G-space) ik=   11, ib=    2: norm=    1.000000
+(r-space) ik=   11, ib=    2: norm=    1.000000
+(G-space) ik=   11, ib=    3: norm=    1.000000
+(r-space) ik=   11, ib=    3: norm=    1.000000
+(G-space) ik=   11, ib=    4: norm=    1.000000
+(r-space) ik=   11, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   12, ib=    1: norm=    1.000000
+(r-space) ik=   12, ib=    1: norm=    1.000000
+(G-space) ik=   12, ib=    2: norm=    1.000000
+(r-space) ik=   12, ib=    2: norm=    1.000000
+(G-space) ik=   12, ib=    3: norm=    1.000000
+(r-space) ik=   12, ib=    3: norm=    1.000000
+(G-space) ik=   12, ib=    4: norm=    1.000000
+(r-space) ik=   12, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   13, ib=    1: norm=    1.000000
+(r-space) ik=   13, ib=    1: norm=    1.000000
+(G-space) ik=   13, ib=    2: norm=    1.000000
+(r-space) ik=   13, ib=    2: norm=    1.000000
+(G-space) ik=   13, ib=    3: norm=    1.000000
+(r-space) ik=   13, ib=    3: norm=    1.000000
+(G-space) ik=   13, ib=    4: norm=    1.000000
+(r-space) ik=   13, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   14, ib=    1: norm=    1.000000
+(r-space) ik=   14, ib=    1: norm=    1.000000
+(G-space) ik=   14, ib=    2: norm=    1.000000
+(r-space) ik=   14, ib=    2: norm=    1.000000
+(G-space) ik=   14, ib=    3: norm=    1.000000
+(r-space) ik=   14, ib=    3: norm=    1.000000
+(G-space) ik=   14, ib=    4: norm=    1.000000
+(r-space) ik=   14, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   15, ib=    1: norm=    1.000000
+(r-space) ik=   15, ib=    1: norm=    1.000000
+(G-space) ik=   15, ib=    2: norm=    1.000000
+(r-space) ik=   15, ib=    2: norm=    1.000000
+(G-space) ik=   15, ib=    3: norm=    1.000000
+(r-space) ik=   15, ib=    3: norm=    1.000000
+(G-space) ik=   15, ib=    4: norm=    1.000000
+(r-space) ik=   15, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   16, ib=    1: norm=    1.000000
+(r-space) ik=   16, ib=    1: norm=    1.000000
+(G-space) ik=   16, ib=    2: norm=    1.000000
+(r-space) ik=   16, ib=    2: norm=    1.000000
+(G-space) ik=   16, ib=    3: norm=    1.000000
+(r-space) ik=   16, ib=    3: norm=    1.000000
+(G-space) ik=   16, ib=    4: norm=    1.000000
+(r-space) ik=   16, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   17, ib=    1: norm=    1.000000
+(r-space) ik=   17, ib=    1: norm=    1.000000
+(G-space) ik=   17, ib=    2: norm=    1.000000
+(r-space) ik=   17, ib=    2: norm=    1.000000
+(G-space) ik=   17, ib=    3: norm=    1.000000
+(r-space) ik=   17, ib=    3: norm=    1.000000
+(G-space) ik=   17, ib=    4: norm=    1.000000
+(r-space) ik=   17, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   18, ib=    1: norm=    1.000000
+(r-space) ik=   18, ib=    1: norm=    1.000000
+(G-space) ik=   18, ib=    2: norm=    1.000000
+(r-space) ik=   18, ib=    2: norm=    1.000000
+(G-space) ik=   18, ib=    3: norm=    1.000000
+(r-space) ik=   18, ib=    3: norm=    1.000000
+(G-space) ik=   18, ib=    4: norm=    1.000000
+(r-space) ik=   18, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   19, ib=    1: norm=    1.000000
+(r-space) ik=   19, ib=    1: norm=    1.000000
+(G-space) ik=   19, ib=    2: norm=    1.000000
+(r-space) ik=   19, ib=    2: norm=    1.000000
+(G-space) ik=   19, ib=    3: norm=    1.000000
+(r-space) ik=   19, ib=    3: norm=    1.000000
+(G-space) ik=   19, ib=    4: norm=    1.000000
+(r-space) ik=   19, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   20, ib=    1: norm=    1.000000
+(r-space) ik=   20, ib=    1: norm=    1.000000
+(G-space) ik=   20, ib=    2: norm=    1.000000
+(r-space) ik=   20, ib=    2: norm=    1.000000
+(G-space) ik=   20, ib=    3: norm=    1.000000
+(r-space) ik=   20, ib=    3: norm=    1.000000
+(G-space) ik=   20, ib=    4: norm=    1.000000
+(r-space) ik=   20, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   21, ib=    1: norm=    1.000000
+(r-space) ik=   21, ib=    1: norm=    1.000000
+(G-space) ik=   21, ib=    2: norm=    1.000000
+(r-space) ik=   21, ib=    2: norm=    1.000000
+(G-space) ik=   21, ib=    3: norm=    1.000000
+(r-space) ik=   21, ib=    3: norm=    1.000000
+(G-space) ik=   21, ib=    4: norm=    1.000000
+(r-space) ik=   21, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   22, ib=    1: norm=    1.000000
+(r-space) ik=   22, ib=    1: norm=    1.000000
+(G-space) ik=   22, ib=    2: norm=    1.000000
+(r-space) ik=   22, ib=    2: norm=    1.000000
+(G-space) ik=   22, ib=    3: norm=    1.000000
+(r-space) ik=   22, ib=    3: norm=    1.000000
+(G-space) ik=   22, ib=    4: norm=    1.000000
+(r-space) ik=   22, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   23, ib=    1: norm=    1.000000
+(r-space) ik=   23, ib=    1: norm=    1.000000
+(G-space) ik=   23, ib=    2: norm=    1.000000
+(r-space) ik=   23, ib=    2: norm=    1.000000
+(G-space) ik=   23, ib=    3: norm=    1.000000
+(r-space) ik=   23, ib=    3: norm=    1.000000
+(G-space) ik=   23, ib=    4: norm=    1.000000
+(r-space) ik=   23, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   24, ib=    1: norm=    1.000000
+(r-space) ik=   24, ib=    1: norm=    1.000000
+(G-space) ik=   24, ib=    2: norm=    1.000000
+(r-space) ik=   24, ib=    2: norm=    1.000000
+(G-space) ik=   24, ib=    3: norm=    1.000000
+(r-space) ik=   24, ib=    3: norm=    1.000000
+(G-space) ik=   24, ib=    4: norm=    1.000000
+(r-space) ik=   24, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   25, ib=    1: norm=    1.000000
+(r-space) ik=   25, ib=    1: norm=    1.000000
+(G-space) ik=   25, ib=    2: norm=    1.000000
+(r-space) ik=   25, ib=    2: norm=    1.000000
+(G-space) ik=   25, ib=    3: norm=    1.000000
+(r-space) ik=   25, ib=    3: norm=    1.000000
+(G-space) ik=   25, ib=    4: norm=    1.000000
+(r-space) ik=   25, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   26, ib=    1: norm=    1.000000
+(r-space) ik=   26, ib=    1: norm=    1.000000
+(G-space) ik=   26, ib=    2: norm=    1.000000
+(r-space) ik=   26, ib=    2: norm=    1.000000
+(G-space) ik=   26, ib=    3: norm=    1.000000
+(r-space) ik=   26, ib=    3: norm=    1.000000
+(G-space) ik=   26, ib=    4: norm=    1.000000
+(r-space) ik=   26, ib=    4: norm=    1.000000
+ 
+(G-space) ik=   27, ib=    1: norm=    1.000000
+(r-space) ik=   27, ib=    1: norm=    1.000000
+(G-space) ik=   27, ib=    2: norm=    1.000000
+(r-space) ik=   27, ib=    2: norm=    1.000000
+(G-space) ik=   27, ib=    3: norm=    1.000000
+(r-space) ik=   27, ib=    3: norm=    1.000000
+(G-space) ik=   27, ib=    4: norm=    1.000000
+(r-space) ik=   27, ib=    4: norm=    1.000000
+ 
+TACC:  Shutdown complete. Exiting. 

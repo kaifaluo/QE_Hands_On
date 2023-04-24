@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH -J P-relax         #Job name
+#SBATCH -N 2              
+#SBATCH -n 96
+#SBATCH -t 0:20:00      
+# 
+#SBATCH -A EPW-QE-Tests
+#SBATCH -p skx-dev 
+#
+##SBATCH -A DMR21002      # Project name 
+##SBATCH -p development   # Queue (partition) name
+
+module list
+pwd
+date
+
+export PATHQE=/work2/08220/kfluo/frontera/cdw/qe-7.2
+
+ibrun -np 96 $PATHQE/bin/pw.x -nk 96 -in relax.in > relax.out
+
+date
+

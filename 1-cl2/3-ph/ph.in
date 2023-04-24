@@ -1,0 +1,7 @@
+&inputph
+prefix = "cl2",
+amass(1) = 35.453,
+outdir = "./",
+fildyn = "cl2.dyn",
+/
+0.0 0.0 0.0

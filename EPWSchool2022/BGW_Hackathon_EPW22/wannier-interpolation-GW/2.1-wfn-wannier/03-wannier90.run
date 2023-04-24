@@ -1,0 +1,8 @@
+# preprocess for wannier90
+ibrun -n 1 $W90PATH/wannier90.x -pp Si
+
+# pw2wannier90
+ibrun -n 1 $QEPATH/pw2wannier90.x < pw2wan.in > pw2wan.out
+
+# wannierization
+ibrun -n 1 $W90PATH/wannier90.x Si

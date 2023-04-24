@@ -1,0 +1,49 @@
+--------
+&inputepw
+  prefix        = 'lif'
+  outdir        = './'
+
+  elph          = .true.
+  epwwrite      = .true.
+  epwread       = .false.
+
+  lpolar        = .true.
+  nbndsub       =  1
+  dvscf_dir     = './save/'
+
+  bands_skipped = 'exclude_bands = 1:5'
+  wannierize    = .true.
+  num_iter      = 500
+  iprint        = 2
+
+  wannier_plot  = .true.
+  wannier_plot_supercell = 6 6 6 
+
+  proj(1)       = 'F:s'
+  dis_win_min   = 9.0d0
+  dis_win_max   = 30.d0
+  dis_froz_min  = 9.0d0
+  dis_froz_max  = 14.6d0
+  wdata(1)      = 'dis_num_iter = 2000'
+
+  wdata(2)      = 'bands_plot = .true.'
+  wdata(3)      = 'begin kpoint_path'
+  wdata(4)      = 'W 0.250000 0.750000 0.500000 L 0.500000 0.500000 0.500000'
+  wdata(5)      = 'L 0.500000 0.500000 0.500000 G 0.000000 0.000000 0.000000'
+  wdata(6)      = 'G 0.000000 0.000000 0.000000 X 0.500000 0.000000 0.500000'
+  wdata(7)      = 'X 0.000000 0.500000 0.500000 W 0.250000 0.750000 0.500000'
+  wdata(8)      = 'W 0.250000 0.750000 0.500000 K 0.375000 0.750000 0.375000'
+  wdata(9)      = 'end kpoint_path' 
+  wdata(10)     = 'bands_plot_format = gnuplot'
+
+  nk1           = 6 
+  nk2           = 6 
+  nk3           = 6
+  nq1           = 6 
+  nq2           = 6 
+  nq3           = 6
+
+  band_plot     = .true.
+  filkf         = './path.kpt'
+  filqf         = './path.kpt'
+/

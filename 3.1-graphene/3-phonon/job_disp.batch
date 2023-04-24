@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -J graphene_ph            # Job name
+#SBATCH -p small                  # Queue (partition) name
+#SBATCH -N 1                      # Total # of nodes 
+#SBATCH --tasks-per-node 1
+#SBATCH -t 0:10:00                # Run time (hh:mm:ss)
+#SBATCH -A DMR21002               # Project name 
+
+module list
+pwd
+date
+
+# Launch MPI code... 
+export PATHQE=/work2/08220/kfluo/frontera/software/qe-7.0
+
+ibrun $PATHQE/bin/q2r.x -nk 1 -in q2r.in > q2r.out
+ibrun $PATHQE/bin/matdyn.x -nk 1 -in matdyn.in > matdyn.out
+
+date
+

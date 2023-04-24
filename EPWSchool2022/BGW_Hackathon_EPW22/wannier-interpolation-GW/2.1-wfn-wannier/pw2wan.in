@@ -1,0 +1,8 @@
+&inputpp
+  outdir     =  './'
+  prefix     =  'Si'
+  seedname   =  'Si'
+  write_amn  =  .true.
+  write_mmn  =  .true.
+  write_unk  =  .false.
+/

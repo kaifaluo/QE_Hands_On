@@ -1,0 +1,6 @@
+#!/bin/bash -l
+
+# This parallel script launches BGW to perform a calculation of the absorption spectrum.
+export HDF5_USE_FILE_LOCKING=FALSE
+
+ibrun -np 16     absorption.real.x &> absorption.out

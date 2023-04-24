@@ -1,0 +1,34 @@
+--------
+&inputepw
+  prefix        = 'lif'
+  outdir        = './'
+
+  elph          = .true.
+  epwwrite      = .true.
+  epwread       = .false.
+
+  lpolar        = .true.
+  nbndsub       =  3
+  dvscf_dir     = './save/'
+
+  bands_skipped = 'exclude_bands = 1:2, 6:15'
+  wannierize    = .true.
+  num_iter      = 500
+  iprint        = 2
+
+  proj(1)       = 'F:p'
+
+  wannier_plot  = .true.
+  wannier_plot_supercell = 6 6 6 
+
+  nk1           = 6 
+  nk2           = 6 
+  nk3           = 6 
+  nq1           = 6 
+  nq2           = 6 
+  nq3           = 6
+
+  band_plot     = .true.
+  filkf         = './path.kpt'
+  filqf         = './path.kpt'
+/

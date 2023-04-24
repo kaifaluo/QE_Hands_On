@@ -1,0 +1,9 @@
+&inputph
+ prefix='alas'
+ fildyn = 'alasG.dyn',
+ tr2_ph = 1.0d-12
+ amass(1)=26.98
+ amass(2)=74.92
+ epsil=.true.
+/
+0.0 0.0 0.0

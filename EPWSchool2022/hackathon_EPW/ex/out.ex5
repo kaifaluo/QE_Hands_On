@@ -1,0 +1,28 @@
+TACC:  Starting up job 4506810 
+TACC:  Starting parallel tasks... 
+
+     Reading xml data from directory:
+
+     ./4p2k/si.save/
+     file Si.UPF: wavefunction(s)  3d renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         361     361    121                 4573     4573     893
+ 
+     Using Slab Decomposition
+ 
+        4573          48
+          -1           0           1
+          -1           1           0
+          -1           0           0
+ -0.499999999999899       0.000000000000000E+000  0.000000000000000E+000
+TACC:  Shutdown complete. Exiting. 

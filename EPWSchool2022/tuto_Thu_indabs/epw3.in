@@ -1,0 +1,60 @@
+--
+&inputepw
+  prefix      = 'si'
+  outdir      = './'
+
+  elph        = .true.
+  epbwrite    = .false.
+  epbread     = .false.
+  epwwrite    = .false.
+  epwread     = .true.
+  etf_mem     = 1
+
+!  band_plot = .true.
+
+  mp_mesh_k = .true.
+  lindabs = .true.
+  efermi_read = .true.
+  fermi_energy = 5.57
+  eig_read    = .true.
+
+  omegamin = 0.02
+  omegamax = 3.0
+  omegastep = 0.02
+  carrier   = .true.
+  ncarrier  = 1e19
+
+  elecselfen  = .false.
+  phonselfen  = .false.
+  a2f         = .false.
+
+  fsthick     = 4.0 ! eV
+  temps       = 300 ! K
+  degaussw    = 0.05 ! eV
+
+  dvscf_dir   = './save'
+
+  nkf1        = 16
+  nkf2        = 16
+  nkf3        = 16
+  nqf1        = 8
+  nqf2        = 8
+  nqf3        = 8
+
+  nk1         = 6
+  nk2         = 6
+  nk3         = 6
+  nq1         = 3
+  nq2         = 3
+  nq3         = 3
+
+
+  nbndsub     =  8
+
+  use_ws      = .true.
+  asr_typ     = 'crystal'
+  
+
+  wannierize  = .false.
+
+ /

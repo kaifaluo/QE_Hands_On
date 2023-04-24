@@ -1,0 +1,4 @@
+&input
+  flfrc='alas.fc', asr='simple', fldos='alas.phdos', dos=.true.,
+  nk1=8, nk2=8, nk3=8
+/

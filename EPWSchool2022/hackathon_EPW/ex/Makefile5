@@ -1,0 +1,26 @@
+QEPATH = /work2/06868/giustino/EP-SCHOOL/q-e
+
+include $(QEPATH)/make.inc
+
+MODFLAGS= $(BASEMOD_FLAGS) \
+          $(MOD_FLAG) $(QEPATH)/PW/src \
+          $(MOD_FLAG) $(QEPATH)/dft-d3 \
+          $(MOD_FLAG) $(QEPATH)/PHonon/PH \
+          $(MOD_FLAG) $(QEPATH)/LR_Modules \
+          $(MOD_FLAG) $(QEPATH)/EPW/src
+
+PWOBJS = $(QEPATH)/PW/src/libpw.a $(QEPATH)/KS_Solvers/libks_solvers.a $(QEPATH)/dft-d3/libdftd3qe.a
+PHOBJS = $(QEPATH)/PHonon/PH/libph.a
+LRMODS = $(QEPATH)/LR_Modules/liblrmod.a
+PPOBJS = $(QEPATH)/PP/src/libpp.a
+EPWOBJS = $(QEPATH)/EPW/src/libepw.a
+QEMODS = $(BASEMODS)
+OBJ = ex5.o
+
+all : ex5.x
+
+ex5.x : $(OBJ) $(EPWOBJS) $(PWOBJS) $(PHOBJS) $(LRMODS) $(PPOBJS)  $(QEMODS)
+	$(LD) $(LDFLAGS) -o $@ $(OBJ) $(EPWOBJS) $(PWOBJS) $(PHOBJS) $(LRMODS) $(PPOBJS) $(QEMODS) $(QELIBS)
+
+clean :
+	- /bin/rm -f *.x *.o *.a *~ *_tmp.f90 *.d *.mod *.i *.L

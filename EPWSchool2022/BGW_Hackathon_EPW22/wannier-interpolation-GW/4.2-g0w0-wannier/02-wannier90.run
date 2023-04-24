@@ -1,0 +1,1 @@
+ibrun -n 1 $W90PATH/wannier90.x Si

@@ -1,0 +1,9 @@
+#!/bin/bash -l
+
+# This parallel script launches Quantum ESPRESSO to perform an scf calculation.
+
+# module load espresso
+
+PATHQE=/work2/06868/giustino/EP-SCHOOL/q-e/bin
+
+ibrun -np 8  $PATHQE/pw.x -in scf.in &> scf.out

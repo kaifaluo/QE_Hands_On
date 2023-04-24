@@ -1,0 +1,5 @@
+&BANDS
+  filband = 'bands'
+  outdir  = './tmp/'
+  plot_2d = .false. 
+/

@@ -1,0 +1,7 @@
+#!/bin/bash -l
+
+# This parallel script launches Quantum ESPRESSO to perform an nscf calculation.
+
+# module load espresso
+
+ibrun -np 16     pw.x -np 16 -npools 8 -in bands.in &> bands.out

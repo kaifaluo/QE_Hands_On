@@ -1,0 +1,5 @@
+#!/bin/bash -l
+# This parallel script launches QE.
+
+ibrun -np 16     pw.x -np 16 -npools 8 -in bands.in &> bands.out
+ibrun -np 16     pw2bgw.x -np 16 -npools 8 -in pw2bgw.in &> pw2bgw.out

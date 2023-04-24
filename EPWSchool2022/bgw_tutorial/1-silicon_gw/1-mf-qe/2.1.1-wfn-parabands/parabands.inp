@@ -1,0 +1,45 @@
+# parabands.inp
+
+######################
+# Required arguments #
+######################
+
+# Input file with DFT wavefunctions.
+# The input WFN file is assumed to be in binary Fortran format.
+# This file is controlled by the wfng_flag/wfng_file options in pw2bgw.inp
+input_wfn_file WFN_in
+
+# Output file to write DFT wavefunctions to.
+# The output WFN file will be written in HDF5 format.
+output_wfn_file WFN.h5
+
+# Input file with self-consistent potential.
+# This file is controlled by the vscg_flag/vscg_file options in pw2bgw.inp
+vsc_file VSC
+
+# Input file with Kleinman-Bylander projectors
+# This file is controlled by the vkbg_flag/vkbg_file options in pw2bgw.inp
+vkb_file VKB
+
+
+############################
+# Basic optional arguments #
+############################
+
+# Number of bands to generate. Default is -1, which generates bands up to
+# the energy cutoff.
+number_bands -1
+
+# Number of k-points pools. The total number of MPI tasks will distributed
+# into this number of groups, each group working on a separate k-point.
+#number_pools 1
+
+# Direct solvers (see the README for more information)
+#   -2 = dummy, i.e., don't diagonalize. Useful to benchmark I/O.
+#   -1 = default => 10 if compiled with ELPA, 0 otherwise
+#    0 = Bisection
+#    1 = Divide and Conquer
+#    2 = Relatively Robust Representations/MR3 (needs special flags; see README)
+#   10 = ELPA (typically best option, but need special linking; see README)
+#  1xx = PRIMME (needs special linking; see notes below and README)
+#solver_algorithm -1

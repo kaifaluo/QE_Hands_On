@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH -J myjob           # Job name
+#SBATCH -p small           # Queue (partition) name
+#SBATCH -N 1               # Total # of nodes 
+#SBATCH --ntasks-per-node 4
+#SBATCH -t 01:00:00        # Run time (hh:mm:ss)
+#SBATCH -A EPSchool2022
+#SBATCH --reservation=EPSchoolDay6
+
+module list
+pwd
+date
+
+# Launch MPI code... 
+export PATHQE=/work2/06868/giustino/EP-SCHOOL/q-e
+
+
+mkdir si.save
+cp ../scf/si.save/charge-density.dat si.save/
+cp ../scf/si.save/data-file-schema.xml si.save/
+
+ibrun $PATHQE/bin/pw.x -nk 2 -in nscf.in > nscf.out
+
+date

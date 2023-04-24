@@ -1,0 +1,5 @@
+#!/bin/bash -l
+# This parallel script launches BGW to perform a calculation of the BSE kernel.
+export HDF5_USE_FILE_LOCKING=FALSE
+
+ibrun -np 16     kernel.real.x &> kernel.out

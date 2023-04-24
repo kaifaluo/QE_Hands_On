@@ -1,0 +1,6 @@
+ &bands
+    prefix='lead',
+    outdir='./'
+    filband='lead.bands'
+    !lsym=.true.
+ /

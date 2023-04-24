@@ -1,0 +1,10 @@
+$INPUT
+asr = 'simple'
+flfrc = 'si.fc'
+flfrq = 'si.freq'
+q_in_band_form = .true.
+/
+3
+0.5 0.0 0.0 40
+0.0 0.0 0.0 40
+0.5 0.5 0.0 40

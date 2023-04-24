@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -J EPW          #Job name
+#SBATCH -p development                  # Queue (partition) name
+#SBATCH -N 2                       # Total # of nodes 
+#SBATCH -n 101
+#SBATCH -t 00:10:00                # Run time (hh:mm:ss)
+#SBATCH -A DMR21002                # Project name 
+
+module list
+pwd
+date
+
+# Launch MPI code... 
+export PATHQE=/work2/08220/kfluo/frontera/qe-7.0
+
+##ibrun $PATHQE/bin/pw.x -nk 1000 -in 01_scf.in > 01_scf.out
+##ibrun $PATHQE/bin/pw.x -nk 101 -in 02_nscf.in > 02_nscf.out
+ibrun $PATHQE/bin/bands.x -nk 101 -in 03_bandsx.in > 03_bandsx.out
+date

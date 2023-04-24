@@ -1,0 +1,20 @@
+ 1     ! Nspin x Nkpoint
+1996   ! Nvalence bands
+29346  ! Nbands total
+94617  ! nmtx (distributed matrix size)
+9216   ! nproc simulated
+96     ! Nprow in scalapack layout (Nprow * Npcol  = Nproc)
+96     ! Npcol in scalapack layout (Nprow * Npcol  = Nproc)
+25     ! Number of repetition eventually will be equal to Nproc simulated
+
+
+
+ 1     ! Nspin
+1996   ! Nvalence bands
+29346  ! Nbands total
+94617  ! nmtx (distributed matrix size)
+4096   ! nproc simulated
+64     ! Nprow in scalapack layout (Nprow * Npcol  = Nproc)
+64     ! Npcol in scalapack layout (Nprow * Npcol  = Nproc)
+15     ! Number of repetition eventually will be equal to Nproc simulated
+ 

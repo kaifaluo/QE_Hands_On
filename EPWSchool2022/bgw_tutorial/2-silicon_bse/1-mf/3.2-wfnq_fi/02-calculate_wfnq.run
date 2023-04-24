@@ -1,0 +1,4 @@
+#!/bin/bash -l
+# This parallel script launches PARATEC.
+
+ibrun -np 16     pw.x -np 16 -npools 8 -in bands.in &> bands.out

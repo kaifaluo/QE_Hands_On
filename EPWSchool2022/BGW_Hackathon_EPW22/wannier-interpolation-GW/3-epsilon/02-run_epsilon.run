@@ -1,0 +1,7 @@
+#!/bin/bash -l
+
+# module load berkeleygw-tutorial
+
+# This parallel script launches BGW to launch a dielectric matrix calculation.
+
+ibrun -np 56     epsilon.real.x &> epsilon.out 

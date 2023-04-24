@@ -1,0 +1,44 @@
+&control
+  calculation = "relax"
+  prefix = "p"
+  pseudo_dir = "../pseudo/"
+  outdir = "./tmp/"
+  verbosity = 'high'
+/
+
+&system
+  ibrav     = -9
+  celldm(1) = 8.2025
+  celldm(2) = 2.4171
+  celldm(3) = 1.2673
+  nat   = 4
+  ntyp  = 1
+  ecutwfc = 44
+  occupations = 'smearing'
+  smearing    = "mp"
+  degauss     = 0.001
+/
+
+&electrons
+  conv_thr = 1.D-12
+/
+
+&ions
+/
+
+&cell
+  press_conv_thr = 0.01
+  cell_dofree = 'all'
+/
+
+ATOMIC_SPECIES
+  P 30.9738 P.upf
+
+ATOMIC_POSITIONS  crystal
+  P   0.3965999690   0.6034000310    0.4194000120
+  P   0.1034000310   0.8965999690    0.9194000120
+  P  -0.1034000310   0.1034000310    0.0805999880
+  P  -0.3965999690   0.3965999690    0.5805999880
+
+K_POINTS automatic
+ 10 10 6 1 1 1

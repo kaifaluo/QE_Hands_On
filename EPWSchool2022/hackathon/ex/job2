@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH -J myjob           # Job name
+#SBATCH -p small           # Queue (partition) name
+#SBATCH -N 1               # Total # of nodes 
+#SBATCH --ntasks-per-node 1
+#SBATCH -t 00:05:00        # Run time (hh:mm:ss)
+#SBATCH -A EPSchool2022
+##SBATCH --reservation=EPSchoolDay6
+
+module list
+pwd
+date
+
+export ESPRESSO_TMPDIR=./
+
+# Launch MPI code... 
+export PATHQE=/work2/06868/giustino/EP-SCHOOL/q-e
+
+ibrun ./ex2.x > out.ex2
+
+date

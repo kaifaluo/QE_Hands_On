@@ -1,0 +1,19 @@
+QEPATH = /work2/06868/giustino/EP-SCHOOL/q-e
+
+include $(QEPATH)/make.inc
+
+MODFLAGS= $(BASEMOD_FLAGS) \
+          $(MOD_FLAG) $(QEPATH)/PW/src \
+          $(MOD_FLAG) $(QEPATH)/dft-d3 \
+
+PWOBJS = $(QEPATH)/PW/src/libpw.a $(QEPATH)/KS_Solvers/libks_solvers.a $(QEPATH)/dft-d3/libdftd3qe.a
+QEMODS = $(BASEMODS)
+OBJ = ex3.o
+
+all : ex3.x
+
+ex3.x : $(OBJ) $(PWOBJS) $(QEMODS)
+	$(LD) $(LDFLAGS) -o $@ $(OBJ) $(PWOBJS) $(QEMODS) $(QELIBS)
+
+clean :
+	- /bin/rm -f *.x *.o *.a *~ *_tmp.f90 *.d *.mod *.i *.L

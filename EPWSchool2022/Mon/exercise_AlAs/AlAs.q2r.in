@@ -1,0 +1,3 @@
+&input
+   fildyn='alas.dyn', flfrc='alas.fc'
+/

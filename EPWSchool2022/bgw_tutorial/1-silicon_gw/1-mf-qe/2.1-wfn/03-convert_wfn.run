@@ -1,0 +1,8 @@
+#!/bin/bash -l
+
+# This parallel script converts the wavefunction from Quantum Espresso's
+# format to BerkeleyGW's format.
+
+# module load espresso
+
+ibrun -np 16     pw2bgw.x -np 16 -npools 8 -in pw2bgw.in &> pw2bgw.out

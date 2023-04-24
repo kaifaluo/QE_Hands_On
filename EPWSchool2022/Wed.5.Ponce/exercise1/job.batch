@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -N 1 # Total number of nodes
+#SBATCH -n 32 # Sufficiently descriptive
+#SBATCH -t 00:30:00 # Run time (hh:mm:ss)
+#SBATCH --account=EPSchool2022
+#SBATCH --partition=small
+#SBATCH --reservation=EPSchoolDay3
+module purge
+module load TACC
+pwd
+
+
+PATHSC=/work2/06868/giustino/EP-SCHOOL/ # path to school material
+PATHQE=/work2/06868/giustino/EP-SCHOOL/q-e/ # path to Quantum ESPRESSO
+
+date
+
+ibrun $PATHQE/bin/epw.x -npool 32 < epw2.in > epw2.out

@@ -1,0 +1,21 @@
+&input
+    flfrc='si.222.fc', 
+    asr='simple', amass(1)=28.0855, 
+    q_in_cryst_coord = .false., q_in_band_form = .true.
+    ZG_conf = .false., ph_unfold = .true.
+/
+&phonon_unfold
+     dim1 = 2, dim2 = 2, dim3 = 2
+     ng1 = 14, ng2 = 14, ng3 = 14
+     flfrq='frequencies.dat', flweights='unfold_weights.dat'
+/
+ 9
+   0.000000   0.000000   0.000000  74
+   1.500000   1.500000   0.000000   1
+   0.500000   2.000000   0.500000  24
+   0.000000   2.000000   0.000000  70
+   0.000000   0.000000   0.000000  60
+   1.000000   1.000000   1.000000  60
+   0.000000   2.000000   0.000000  34
+   1.000000   2.000000   0.000000  50
+   1.000000   1.000000   1.000000   1

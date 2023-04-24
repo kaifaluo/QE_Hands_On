@@ -1,0 +1,7 @@
+#!/bin/bash -l
+
+# module load berkeleygw-tutorial
+
+# This parallel script launches BGW to perform a self-energy calculation.
+
+ibrun -np 56     sigma.real.x &> sigma.out &
